@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <title>Landing Page Website</title>
+</head>
+
+<body>
+    <section class="hero_section">
+        <div class="text_container">
+            <h2>
+                <pre><span class="lg_text2">Hi,</span> <span class="design">I am Sushant</span></h2></pre>
+                <h1 class="lg_text">Front-End Developer</h1>
+        </div>
+    </section>
+    <section class="black_box">
+        <h2>How May I Help <span>You !</span></h2>
+    </section>
+
+    <!-- --------------Card Section using Grid System---------- -->
+
+    <section class="work">
+        <div class="grid_item">
+            <div class="card">
+                <div class="image_container">
+                    <img src="images/web.png" alt="web">
+                </div>
+                <div class="card_content">
+                    <h3>Web Development</h3>
+                    <p>Web development refers to the building, creating, and maintaining of websites. It includes
+                        aspects such as web design, web publishing, web programming, and database management. </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div class="card">
+                <div class="image_container">
+                    <img src="images/mobile.png" alt="mobile">
+                </div>
+                <div class="card_content">
+                    <h3>App Development</h3>
+                    <p>App development is the process in which developers create an application to be used on
+                        smartphones, tablets and other mobile devices. It is most demanding now a days.Everyone wants to
+                        app its business.</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div class="card">
+                <div class="image_container">
+                    <img src="images/uiux.png" alt="uiux">
+                </div>
+                <div class="card_content">
+                    <h3>Ui Ux Development</h3>
+                    <p>A UI, UX, and front-end expert observes user behavior to improve the visible design of an
+                        application. It requires modern tech stacks and are proficient in crafting
+                        aesthetically beautiful interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------Job Application Form-------------- -->
+
+    <div class="header">
+        <form action="get" enctype="multipart/form-data">
+            <div class="heading">
+                <h1>Job Application</h1>
+                <span>(Software Developer)</span>
+            </div>
+            <div class="naming">
+                <label for="FN">First Name:</label><br />
+                <input type="text" name="first_name" id="FN" class="box-sizing" />
+            </div>
+            <div class="one">
+                <label for="LN">Last Name:</label><br />
+                <input type="text" name="last_name" id="LN" class="box-sizing" /><br /><br />
+            </div>
+
+            <div class="two">
+                <label for="email">Email:</label><br>
+                <input type="text" name="email" id="email" class="box-sizing" />
+            </div>
+
+            <div class="three">
+                <label for="job_role">Job Role:</label><br>
+                <select name="job_role" id="job_role" class="box-sizing">
+                    <option value="account">Select Job Roles</option>
+                    <option value="account">Marketing</option>
+                    <option value="account">HR</option>
+                    <option value="account">CA</option>
+                    <option value="account">CS</option>
+                    <option value="account">Senior Account</option>
+                </select>
+            </div>
+
+            <div class="four">
+                Gender:<br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="fmale">Female
+                <input type="radio" name="gender" value="others">Others
+            </div>
+
+            <div class="five">
+                Area of Software-Development:<br>
+                <input type="checkbox" name="Software-Development">Web
+                <input type="checkbox" name="Software-Development">App
+                <input type="checkbox" name="Software-Development">UI/UX
+            </div>
+
+            <div class="six">
+                <label for="address">Address:</label><br>
+                <textarea name="address" id="address" cols="49" rows="10">Write your Address
+            </textarea><br />
+            </div>
+
+            <div class="seven">
+                <label for="city">City:</label><br>
+                <input type="text" name="city" id="city" class="box-sizing" />
+            </div>
+
+            <div class="eight">
+                <label for="pincode">Pincode:</label><br>
+                <input type="text" name="Pincode" id="pincode" class="box-sizing" /><br />
+            </div>
+
+            <div class="nine">
+                <label for="start_date">Start Date:</label><br>
+                <input type="date" name="start_date" id="start_date" class="box-sizing" />
+            </div>
+
+            <div class="ten">
+                <label for="CV">Upload Multiple Files:</label><br><br>
+                <input type="file" name="CV" id="CV" multiple class="box-sizing" />
+            </div>
+    </div>
+    <div class="apply">
+        <a href="#">Apply Now</a>
+    </div>
+    </form>
+    </div>
+
+    <!------------------------ Project Time Table ---------------->
+
+    <table class="table" border="1" cellspacing="1" bordercolor="blue" bgcolor="yellow">
+        <tr>
+            <th colspan="4">PROJECT TIME TABLE</th>
+        </tr>
+
+        <tr class="Week">
+            <th>DAYS</th>
+            <th>1st Week</th>
+            <th>2nd Week</th>
+            <th>3rd Week</th>
+        </tr>
+
+        <tr align="center">
+            <td>MONDAY</td>
+            <td>Project 1</td>
+            <td>Project 2</td>
+            <td>Project 3</td>
+
+        </tr>
+
+        <tr align="center">
+            <td>TUESDAY</td>
+            <td>Project 1</td>
+            <td>Project 2</td>
+            <td>Project 3</td>
+        </tr>
+
+        <tr align="center">
+            <td>WEDNESDAY</td>
+            <td>Project 1</td>
+            <td>Project 2</td>
+            <td>Project 3</td>
+
+        </tr>
+
+        <tr align="center">
+            <td>THURSDAY</td>
+            <td>Project 1</td>
+            <td>Project 2</td>
+            <td>Project 3</td>
+        </tr>
+
+        <tr align="center">
+            <td>FRIDAY</td>
+            <td>Project 1</td>
+            <td>Project 2</td>
+            <td>Project 3</td>
+        </tr>
+
+        <tr align="center">
+            <td>SATURDAY</td>
+            <td>Project 1</td>
+            <td>Project 2</td>
+            <td>Project 3</td>
+        </tr>
+
+    </table>
+
+    <!-- -----------------------Footer Section -------------------------->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>My name is Sushant. I love coding. I am front-end developer and want to become full-stack developer. Coding
+            is my passion as it does not give you chance to divert your mind because it keeps yourself busy to think
+            about
+            new ways to solve the client problems also to learn more advanced language. </p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+        </div>
+    </section>
+</body>
+
+</html>

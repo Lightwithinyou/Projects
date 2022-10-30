@@ -1,0 +1,110 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16PX;
+    line-height: 1.8em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: rgb(5, 107, 34);
+}
+
+.ping1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+}
+
+.ping2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+}
+
+.ping3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+}
+
+.ping1, .ping2, .ping3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: black;
+    padding: 20px;
+
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: wheat;
+    color: rgb(3, 86, 44);
+}
+
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg2{
+    background-color: black;
+    padding: 20px;
+
+}
+
+.section2{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light2{
+    background-color: rgb(115, 108, 95);
+    color: rgb(244, 246, 246);
+}
+
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg3{
+    background-color: black;
+    padding: 20px;
+
+}
+
+.section3{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light3{
+    background-color: rgb(234, 190, 107);
+    color: rgb(160, 90, 111);
+}

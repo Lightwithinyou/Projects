@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jOB Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <form action="get" enctype="multipart/form-data">
+        <div class="heading">
+          <h1>Job Application</h1>
+          <span>(Web)</span>
+        </div>
+        <div class="naming">
+          <label for="FN">First Name:</label><br />
+          <input type="text" name="first_name" id="FN" class="box-sizing" />
+        </div>
+        <div class="one">
+            <label for="LN">Last Name:</label><br />
+            <input type="text" name="last_name" id="LN" class="box-sizing"/><br /><br />
+          </div>
+          <div class="two">
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email" class="box-sizing" />
+          </div>
+          <div class="three">
+            Job Role: <br>
+            <select name="" id="" class="box-sizing">
+                <option value="account">Select Job Roles</option>
+                <option value="account">Marketing</option>
+                <option value="account">HR</option>
+                <option value="account">CA</option>
+                <option value="account">CS</option>
+                <option value="account">Senior Account</option>
+
+            </select>
+          </div>
+
+          <div class="four">
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="" cols="49" rows="10">Write your Address
+          </textarea
+            ><br />
+          </div>
+          <div class="five">
+            <label for="city">City:</label><br>
+            <input type="text" name="city" id="city" class="box-sizing"/>
+          </div>
+          <div class="six">
+            <label for="pincode">Pincode:</label><br>
+            <input type="text" name="Pincode" id="pincode" class="box-sizing"/><br />
+          </div>
+          <div class="seven">
+            <label for="start_date">Start Date:</label><br>
+            <input type="date" name="start_date" id="start_date" class="box-sizing"/>
+          </div>
+          <div class="eight">
+            <label for="CV">Upload Multiple C.V:</label><br><br>
+            <input type="file" name="CV" id="CV" multiple class="box-sizing"/>
+          </div>
+        </div>
+        <div class="apply">
+            <a href="#">Apply Now</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

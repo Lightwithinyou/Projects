@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+}
+.heading{
+    margin: 37px;
+}
+.heading span{
+    position: relative;
+    top: -23px;
+    margin: 222px;
+    font-weight: 700;
+}
+.one{
+    margin-left: 209px;
+    margin-top: -56px;
+    
+}
+.three{
+    margin-left: 209px;
+    margin-top: -56px;
+}
+
+.six{
+    margin-left: 209px;
+    margin-top: -56px;
+}
+.eight{
+    margin-left: 209px;
+    margin-top: -38px;
+    
+}
+.eight input{
+    margin-left: -8px;
+    margin-top: -44px;
+    position: relative;
+    top: -21px;
+}
+.four{
+    margin-top: 24px;
+}
+.five{
+    margin-top: 24px;
+    margin-top: 6px;
+}
+.seven{
+    margin-top: 24px;
+}
+.box-sizing{
+    padding: 10px;
+}
+.eight label{
+    position: relative;
+    top: -24px;
+    right: 2px;
+}
+.apply{
+   background-color: rgba(0, 128, 0, 0.505);
+   background-size: 100px;
+   border: 1px solid black;
+   width: 120px;
+   padding: 15px;
+   transition: .5s;
+    
+}
+.apply a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.apply:hover{
+    background-color: rgb(207, 67, 90);
+}
+
+input,textarea,select:focus{
+    outline-color: blue;
+}
